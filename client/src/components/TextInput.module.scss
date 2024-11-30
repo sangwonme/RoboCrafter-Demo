@@ -1,0 +1,20 @@
+
+  // Text Input
+  .container {
+    // flex
+    display: flex;
+    // color
+    background-color: #ffffff;
+    // size
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    height: 100%;
+
+    .input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }    
+  }

@@ -1,0 +1,13 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  padding: 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  background-color: #f9f9f9;
+  z-index: 2;
+}

@@ -1,0 +1,35 @@
+// App.scss
+$primary-color: #4CAF50;
+$secondary-color: #FFC107;
+$font-stack: 'Arial', sans-serif;
+
+body {
+  font-family: $font-stack;
+  background-color: $primary-color;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: $secondary-color;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 1em;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
